@@ -34,7 +34,7 @@ export const CallbackContainerCore: FC<CallbackContainerCoreProps> = ({
 
   useEffect(() => {
     getUserManagerInternal()
-      .signinRedirectCallback()
+    .signinPopupCallback()
       .then(onSuccess, onError);
   }, [getUserManagerInternal, onError, onSuccess]);
   return CallbackComponentOverride ? <CallbackComponentOverride /> : <Callback />;
