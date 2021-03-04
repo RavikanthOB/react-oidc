@@ -26,7 +26,7 @@
     "react-dom": ">=16.8.6"
   },
   "dependencies": {
-    "@axa-fr/react-oidc-core": "^3.1.6",
+    "@axa-fr/react-oidc-core": "../packages/core",
     "prop-types": "^15.7.2"
   },
   "license": "MIT",
