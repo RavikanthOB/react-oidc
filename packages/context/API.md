@@ -7,7 +7,7 @@ A simple Way to initiate the provider for the application. Usualy done in the in
 ```javascript
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { AuthenticationProvider } from '@axa-fr/react-oidc-context';
+import { AuthenticationProvider } from '../packages/context';
 
 const oidcConfiguration = {
   /// Oidc configuration

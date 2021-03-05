@@ -1,5 +1,5 @@
 import React from 'react';
-import { AuthenticationContext } from '@axa-fr/react-oidc-context';
+import { AuthenticationContext } from '../../../context';
 import { Link } from 'react-router-dom';
 
 const headerStyle = {

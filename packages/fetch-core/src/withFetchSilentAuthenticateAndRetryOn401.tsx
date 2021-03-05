@@ -1,5 +1,5 @@
 import React from 'react';
-import { getUserManager, signinSilent } from '@axa-fr/react-oidc-core';
+import { getUserManager, signinSilent } from '../../core/src';
 import { User } from 'oidc-client';
 
 type TrySigninSilent = (args?: any) => Promise<User>;

@@ -14,7 +14,7 @@ import {
   authenticateUser,
   logoutUser,
   setUserManager,
-} from '@axa-fr/react-oidc-core';
+} from '../../../core/src';
 
 import { Callback } from '../Callback';
 

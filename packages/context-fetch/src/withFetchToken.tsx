@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { compose } from '@axa-fr/react-oidc-core';
-import { useReactOidc } from '@axa-fr/react-oidc-context';
-import { fetchToken } from '@axa-fr/react-oidc-fetch-core';
+import { compose } from '../../core/src';
+import { useReactOidc } from '../../context/src';
+import { fetchToken } from '../../fetch-core/src';
 
 type WindowFetch = typeof fetch;
 

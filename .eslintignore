@@ -1,11 +1,7 @@
-dist
-build
 coverage
 node_modules
 docs/public
 scripts
-*.bundle.js
-*.js.map
 examples
 __mocks__
 

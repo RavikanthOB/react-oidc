@@ -17,11 +17,6 @@
     "oauth2",
     "react-component"
   ],
-  "dependencies": {
-    "@axa-fr/react-oidc-context": "../packages/context",
-    "@axa-fr/react-oidc-core": "../packages/core",
-    "@axa-fr/react-oidc-fetch-core": "../packages/fetch-core"
-  },
   "scripts": {
     "prepare": "node ../../scripts/prepare.js"
   },

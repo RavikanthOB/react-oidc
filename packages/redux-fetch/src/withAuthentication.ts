@@ -2,7 +2,7 @@ import { compose } from 'recompose';
 import {
   withFetchRedirectionOn403,
   withFetchSilentAuthenticateAndRetryOn401,
-} from '@axa-fr/react-oidc-fetch-core';
+} from '../../fetch-core/src';
 import withFetchToken from './withFetchToken';
 
 type WindowFetch = typeof fetch;

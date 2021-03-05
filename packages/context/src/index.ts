@@ -7,4 +7,4 @@ export {
   oidcLog,
   getUserManager,
   InMemoryWebStorage,
-} from '@axa-fr/react-oidc-core';
+} from '../../core/src';

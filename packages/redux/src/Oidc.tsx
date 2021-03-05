@@ -7,7 +7,7 @@ import {
   getUserManager,
   configurationPropTypes,
   UserStoreType,
-} from '@axa-fr/react-oidc-core';
+} from '../../core/src';
 import AuthenticationCallback from './AuthenticationCallback';
 
 const propTypes = {

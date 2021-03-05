@@ -3,7 +3,7 @@ import './ie.polyfills';
 
 import { render } from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { AuthenticationProvider, oidcLog, InMemoryWebStorage } from '@axa-fr/react-oidc-context';
+import { AuthenticationProvider, oidcLog, InMemoryWebStorage } from '../../context';
 import CustomCallback from './Pages/CustomCallback';
 import Header from './Layout/Header';
 import Routes from './Router';

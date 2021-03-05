@@ -2,7 +2,7 @@ import * as React from 'react';
 import { ComponentType, FC } from 'react';
 import { User, UserManager } from 'oidc-client';
 import { CallbackComponent } from 'redux-oidc';
-import { withRouter, getUserManager, oidcLog, ReactOidcHistory } from '@axa-fr/react-oidc-core';
+import { withRouter, getUserManager, oidcLog, ReactOidcHistory } from '../../core/src';
 import { compose, withProps, pure } from 'recompose';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';

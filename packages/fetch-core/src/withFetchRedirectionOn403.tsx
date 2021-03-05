@@ -1,5 +1,5 @@
 import React from 'react';
-import { useHistory, ReactOidcHistory } from '@axa-fr/react-oidc-core';
+import { useHistory, ReactOidcHistory } from '../../core/src';
 
 export const fetchWithRedirectionOn403 = (fetch: typeof window.fetch, history: ReactOidcHistory) => async (
   url: RequestInfo,

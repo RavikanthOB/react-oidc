@@ -1,5 +1,5 @@
-import { compose } from '@axa-fr/react-oidc-core';
-import { withFetchRedirectionOn403, withFetchSilentAuthenticateAndRetryOn401 } from '@axa-fr/react-oidc-fetch-core';
+import { compose } from '../../core/src';
+import { withFetchRedirectionOn403, withFetchSilentAuthenticateAndRetryOn401 } from '../../fetch-core/src';
 
 import withFetchToken from './withFetchToken';
 

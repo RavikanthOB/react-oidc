@@ -8,7 +8,7 @@ import {
   isRequireAuthentication,
   authenticateUser,
   ReactOidcHistory,
-} from '@axa-fr/react-oidc-core';
+} from '../../core/src';
 import { connect } from 'react-redux';
 import { compose } from 'recompose';
 import { UserState } from 'redux-oidc';

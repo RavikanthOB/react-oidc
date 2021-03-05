@@ -1,5 +1,5 @@
 import React from 'react';
-import { useReactOidc } from '@axa-fr/react-oidc-context';
+import { useReactOidc } from '../../../../context';
 
 const Admin = () => {
   const { oidcUser } = useReactOidc();
